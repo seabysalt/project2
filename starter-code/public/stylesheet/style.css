@@ -1,0 +1,43 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+#head-ul{
+    list-style: none;
+    padding: 0;
+}
+#head-menu li{
+    display: inline;
+    padding: 10px;
+}
+#head-menu a{
+    text-decoration: none;
+    color: rgb(75, 159, 255);
+}
+.err-message{
+    color: rgba(231, 49, 86,.7);
+    padding: 10px;
+    text-align: center;
+}
+.auth-form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    height: 60%;
+}
+.auth-btn{
+    background-color:  rgb(75, 159, 255);
+    padding: 10px;
+    border-radius:5px;
+    color: #fff;
+    border: none;
+}
+.auth-btn:hover{
+    cursor: pointer;
+}
